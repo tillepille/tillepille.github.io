@@ -7,9 +7,44 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>tl@mindlink.de (Tim Schrumpf)</managingEditor>
     <webMaster>tl@mindlink.de (Tim Schrumpf)</webMaster>
+    <lastBuildDate>Wed, 14 Nov 2018 22:29:27 +0100</lastBuildDate>
     
 	<atom:link href="https://tillepille.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About me</title>
+      <link>https://tillepille.github.io/about/</link>
+      <pubDate>Wed, 14 Nov 2018 22:29:27 +0100</pubDate>
+      <author>tl@mindlink.de (Tim Schrumpf)</author>
+      <guid>https://tillepille.github.io/about/</guid>
+      <description>Disclaimer: Don&amp;rsquo;t take too seriously
+Currently looking for a job ´´´
+{ name: &amp;ldquo;Tim Schrumpf&amp;rdquo;, born: 784857600000, location: &amp;ldquo;Bochum, Germany&amp;rdquo;, interests:[ &amp;ldquo;Music&amp;rdquo;, &amp;ldquo;Mountaineering&amp;rdquo;, &amp;ldquo;Surfing&amp;rdquo;, &amp;ldquo;Cycling&amp;rdquo;, &amp;ldquo;Longboarding&amp;rdquo;, &amp;ldquo;Photography&amp;rdquo;, &amp;ldquo;Apple&amp;rdquo;, &amp;ldquo;Skiing&amp;rdquo; ], //from 1-5 computerskills:{ java: 3, javascript: 4, python: 2, haskell: 1, php: 2, c: 1, docker: 3, sql: 2,
+}, lifeBeforeToday:{ university: { university: &amp;ldquo;TU Dortmund&amp;rdquo;, since: 1412121600000, subject: &amp;ldquo;Computer Science&amp;rdquo; }, school: &amp;ldquo;high-school diploma at &amp;lsquo;Lessing Schule&amp;rsquo;&amp;rdquo;, jobs: [ { company: &amp;ldquo;Mindlink Media (mindlink.</description>
+    </item>
+    
+    <item>
+      <title>Impressum</title>
+      <link>https://tillepille.github.io/impressum/</link>
+      <pubDate>Tue, 13 Nov 2018 21:31:13 +0100</pubDate>
+      <author>tl@mindlink.de (Tim Schrumpf)</author>
+      <guid>https://tillepille.github.io/impressum/</guid>
+      <description>Datenschutz Diese Seite verwendet keinerlei Cookies oder sonstiges Tracking.
+Server-Log- Files Der Provider der Seiten erhebt und speichert automatisch Informationen in so genannten Server-Log Files, die Ihr Browser automatisch an uns übermittelt. Dies sind: - Browsertyp und Browserversion - verwendetes Betriebssystem - Referrer URL - Hostname des zugreifenden Rechners - Uhrzeit der Serveranfrage
+Diese Daten sind nicht bestimmten Personen zuordenbar. Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen.</description>
+    </item>
+    
+    <item>
+      <title>Speedtests</title>
+      <link>https://tillepille.github.io/posts/speedtests/</link>
+      <pubDate>Tue, 13 Nov 2018 21:30:15 +0100</pubDate>
+      <author>tl@mindlink.de (Tim Schrumpf)</author>
+      <guid>https://tillepille.github.io/posts/speedtests/</guid>
+      <description>about browsers und speedtests
+Internet of Speeds Since I got a Gigabit Connection at home over DOCSIS 3.1 (at least Downsteam, Upstream is 50MBit), i like too see how fast my internet is. When your alone there aren‘t really many use cases where you need such a fast connection.
+But beside seeing the speeds on the interface of the router, eventually it was difficult to test the actual speeds.</description>
+    </item>
     
   </channel>
 </rss>

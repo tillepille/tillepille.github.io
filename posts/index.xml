@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on HelloWorld!</title>
+    <link>https://tillepille.github.io/posts/</link>
+    <description>Recent content in Posts on HelloWorld!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>tl@mindlink.de (Tim Schrumpf)</managingEditor>
+    <webMaster>tl@mindlink.de (Tim Schrumpf)</webMaster>
+    <lastBuildDate>Tue, 13 Nov 2018 21:30:15 +0100</lastBuildDate>
+    
+	<atom:link href="https://tillepille.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Speedtests</title>
+      <link>https://tillepille.github.io/posts/speedtests/</link>
+      <pubDate>Tue, 13 Nov 2018 21:30:15 +0100</pubDate>
+      <author>tl@mindlink.de (Tim Schrumpf)</author>
+      <guid>https://tillepille.github.io/posts/speedtests/</guid>
+      <description>about browsers und speedtests
+Internet of Speeds Since I got a Gigabit Connection at home over DOCSIS 3.1 (at least Downsteam, Upstream is 50MBit), i like too see how fast my internet is. When your alone there aren‘t really many use cases where you need such a fast connection.
+But beside seeing the speeds on the interface of the router, eventually it was difficult to test the actual speeds.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -23,5 +23,15 @@ Internet of Speeds Since I got a Gigabit Connection at home over DOCSIS 3.1 (at 
 But beside seeing the speeds on the interface of the router, eventually it was difficult to test the actual speeds.</description>
     </item>
     
+    <item>
+      <title>My First Post</title>
+      <link>https://tillepille.github.io/posts/my-first-post/</link>
+      <pubDate>Tue, 13 Nov 2018 21:29:27 +0100</pubDate>
+      <author>tl@mindlink.de (Tim Schrumpf)</author>
+      <guid>https://tillepille.github.io/posts/my-first-post/</guid>
+      <description>&amp;ldquo;write a blog!&amp;rdquo; they said&amp;hellip; Okay, so here I am. Or at least my blog.
+Since I&amp;rsquo;m a computer science student, i do it on github rather than on tumblr&amp;hellip; As you can see, powered with hugo and currently no Pipeline.. :(</description>
+    </item>
+    
   </channel>
 </rss>

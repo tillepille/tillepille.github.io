@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HelloWorld!</title>
-    <link>http://localhost/</link>
+    <link>https://tillepille.github.io/</link>
     <description>Recent content on HelloWorld!</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>tl@mindlink.de (Tim Schrumpf)</managingEditor>
     <webMaster>tl@mindlink.de (Tim Schrumpf)</webMaster>
     
-	<atom:link href="http://localhost/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://tillepille.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

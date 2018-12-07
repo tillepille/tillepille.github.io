@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>tl@mindlink.de (Tim Schrumpf)</managingEditor>
     <webMaster>tl@mindlink.de (Tim Schrumpf)</webMaster>
-    <lastBuildDate>Sun, 25 Nov 2018 16:19:27 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 07 Dec 2018 20:15:20 +0000</lastBuildDate>
     
 	<atom:link href="https://tillepille.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Go Lang Adventure</title>
+      <link>https://tillepille.github.io/posts/go-lang/</link>
+      <pubDate>Fri, 07 Dec 2018 20:15:20 +0000</pubDate>
+      <author>tl@mindlink.de (Tim Schrumpf)</author>
+      <guid>https://tillepille.github.io/posts/go-lang/</guid>
+      <description>This week I participated in a Hackathon organized by bee42 at their location. It was focused on students of the FH Dortmund grad school, but me and a friend of me participated as well. We both know Docker and had experience working with git, wich, unfortunately, the other students didn&amp;rsquo;t seem to have.
+The goal was to make a better version of https://github.com/dockersamples/example-voting-app, to be mindful of the 12 factor rules and just have fun, of course!</description>
+    </item>
     
     <item>
       <title>How to get a Job</title>

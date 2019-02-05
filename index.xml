@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>tl@mindlink.de (Tim Schrumpf)</managingEditor>
     <webMaster>tl@mindlink.de (Tim Schrumpf)</webMaster>
-    <lastBuildDate>Fri, 07 Dec 2018 20:15:20 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://tillepille.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>First Times</title>
+      <link>https://tillepille.github.io/posts/first-times/</link>
+      <pubDate>Sat, 02 Feb 2019 00:00:00 +0000</pubDate>
+      <author>tl@mindlink.de (Tim Schrumpf)</author>
+      <guid>https://tillepille.github.io/posts/first-times/</guid>
+      <description>first time actual working So I started officially in December at bee42 as a working student. The first weeks in December were a little chaotic, my two colleagues were at KubeCon Seattle for a week but later onto this.
+The first days didn&amp;rsquo;t feel like real work. It was a strange feeling to get paid for just hacking around a little bit, trying, failing, asking obvious questions, Christmas just a few days to go.</description>
+    </item>
     
     <item>
       <title>Go Lang Adventure</title>
@@ -83,16 +93,6 @@ But beside seeing the speeds on the interface of the router, eventually it was d
       <guid>https://tillepille.github.io/posts/my-first-post/</guid>
       <description>&amp;ldquo;write a blog!&amp;rdquo; they said&amp;hellip; Okay, so here I am. Or at least my blog.
 Since I&amp;rsquo;m a computer science student, i do it on github rather than on tumblr&amp;hellip; As you can see, powered with hugo and currently no Pipeline.. :(</description>
-    </item>
-    
-    <item>
-      <title>First Times</title>
-      <link>https://tillepille.github.io/posts/first-times/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>tl@mindlink.de (Tim Schrumpf)</author>
-      <guid>https://tillepille.github.io/posts/first-times/</guid>
-      <description>first time actual working So I started officially in December at bee42 as a working student. The first weeks in December were a little chaotic, my two colleagues were at KubeCon Seattle for a week but later onto this.
-The first days didn&amp;rsquo;t feel like real work. It was a strange feeling to get paid for just hacking around a little bit, trying, failing, asking obvious questions, Christmas just a few days to go.</description>
     </item>
     
   </channel>

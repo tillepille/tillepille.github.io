@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://tillepille.github.io/posts/first-times/</loc>
+    <lastmod>2019-02-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tillepille.github.io/posts/go-lang/</loc>
     <lastmod>2018-12-07T20:15:20+00:00</lastmod>
   </url>
@@ -39,7 +44,7 @@
   
   <url>
     <loc>https://tillepille.github.io/</loc>
-    <lastmod>2018-12-07T20:15:20+00:00</lastmod>
+    <lastmod>2019-02-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -48,12 +53,8 @@
   </url>
   
   <url>
-    <loc>https://tillepille.github.io/posts/first-times/</loc>
-  </url>
-  
-  <url>
     <loc>https://tillepille.github.io/posts/</loc>
-    <lastmod>2018-12-07T20:15:20+00:00</lastmod>
+    <lastmod>2019-02-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

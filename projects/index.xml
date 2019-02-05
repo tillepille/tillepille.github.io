@@ -5,8 +5,6 @@
     <link>https://tillepille.github.io/projects/</link>
     <description>Recent content in Projects on tillepille</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>tl@mindlink.de (Tim Schrumpf)</managingEditor>
-    <webMaster>tl@mindlink.de (Tim Schrumpf)</webMaster>
     <lastBuildDate>Wed, 14 Nov 2018 22:08:47 +0000</lastBuildDate>
     
 	<atom:link href="https://tillepille.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +14,7 @@
       <title>Blinds for Homekit / Web</title>
       <link>https://tillepille.github.io/projects/blinds/</link>
       <pubDate>Wed, 14 Nov 2018 22:08:47 +0000</pubDate>
-      <author>tl@mindlink.de (Tim Schrumpf)</author>
+      
       <guid>https://tillepille.github.io/projects/blinds/</guid>
       <description>For a long time we already had an automation for our blinds at home in the livingroom but at least twice a year, when there&amp;rsquo;s the change from summer to wintertime or the other way round, these things suck.
 Where&amp;rsquo;s the manual? I already did this a dozen times, can&amp;rsquo;t be so difficult&amp;hellip;

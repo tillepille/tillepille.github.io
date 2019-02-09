@@ -5,6 +5,8 @@
     <link>https://tillepille.github.io/</link>
     <description>Recent content on tillepille</description>
     <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>tim@tillepille.io (Tim Schrumpf)</managingEditor>
+    <webMaster>tim@tillepille.io (Tim Schrumpf)</webMaster>
     <lastBuildDate>Sat, 02 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://tillepille.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -14,7 +16,7 @@
       <title>First Times</title>
       <link>https://tillepille.github.io/posts/first-times/</link>
       <pubDate>Sat, 02 Feb 2019 00:00:00 +0000</pubDate>
-      
+      <author>tim@tillepille.io (Tim Schrumpf)</author>
       <guid>https://tillepille.github.io/posts/first-times/</guid>
       <description>first time actual working So I started officially in December at bee42 as a working student. The first weeks in December were a little chaotic, my two colleagues were at KubeCon Seattle for a week but later onto this.
 The first days didn&amp;rsquo;t feel like real work. It was a strange feeling to get paid for just hacking around a little bit, trying, failing, asking obvious questions, Christmas just a few days to go.</description>
@@ -24,7 +26,7 @@ The first days didn&amp;rsquo;t feel like real work. It was a strange feeling to
       <title>Go Lang Adventure</title>
       <link>https://tillepille.github.io/posts/go-lang/</link>
       <pubDate>Fri, 07 Dec 2018 20:15:20 +0000</pubDate>
-      
+      <author>tim@tillepille.io (Tim Schrumpf)</author>
       <guid>https://tillepille.github.io/posts/go-lang/</guid>
       <description>This week I participated in a Hackathon organized by bee42 at their location. It was focused on students of the FH Dortmund grad school, but me and a friend of me participated as well. We both know Docker and had experience working with git, wich, unfortunately, the other students didn&amp;rsquo;t seem to have.
 The goal was to make a better version of https://github.com/dockersamples/example-voting-app, to be mindful of the 12 factor rules and just have fun, of course!</description>
@@ -34,7 +36,7 @@ The goal was to make a better version of https://github.com/dockersamples/exampl
       <title>How to get a Job</title>
       <link>https://tillepille.github.io/posts/how-to-get-a-job/</link>
       <pubDate>Sun, 25 Nov 2018 16:19:27 +0100</pubDate>
-      
+      <author>tim@tillepille.io (Tim Schrumpf)</author>
       <guid>https://tillepille.github.io/posts/how-to-get-a-job/</guid>
       <description>My way until now My dad is a self-employed IT-Consultant, mainly focused on private persons to small businesses, everything from hardware and network/telephone wiring to software and service. Also some cozy, never-think-about mail and webhosting. I helped here and there, mainly focused on the hosting and everything related to Apple.
 I started computer science in 2014 at the TU Dortmund, right next to my city, started to slow down my pace sometime but doing all the things, I saw some sense in for the practical future: Distributed Systems, Software Architecture, programming classes and even functional programming in Haskell, but really tuck away from the heavy math stuff.</description>
@@ -44,7 +46,7 @@ I started computer science in 2014 at the TU Dortmund, right next to my city, st
       <title>Blinds for Homekit / Web</title>
       <link>https://tillepille.github.io/projects/blinds/</link>
       <pubDate>Wed, 14 Nov 2018 22:08:47 +0000</pubDate>
-      
+      <author>tim@tillepille.io (Tim Schrumpf)</author>
       <guid>https://tillepille.github.io/projects/blinds/</guid>
       <description>For a long time we already had an automation for our blinds at home in the livingroom but at least twice a year, when there&amp;rsquo;s the change from summer to wintertime or the other way round, these things suck.
 Where&amp;rsquo;s the manual? I already did this a dozen times, can&amp;rsquo;t be so difficult&amp;hellip;
@@ -55,7 +57,7 @@ Turns out it is difficult. I believe these things are made to never be touched a
       <title>About me</title>
       <link>https://tillepille.github.io/about/</link>
       <pubDate>Wed, 14 Nov 2018 22:29:27 +0100</pubDate>
-      
+      <author>tim@tillepille.io (Tim Schrumpf)</author>
       <guid>https://tillepille.github.io/about/</guid>
       <description>Disclaimer: Don&amp;rsquo;t take too seriously
 { name: &amp;#34;Tim Schrumpf&amp;#34;, born: 784857600000, location: &amp;#34;Bochum, Germany&amp;#34;, interests:[ &amp;#34;Music&amp;#34;, &amp;#34;Mountaineering&amp;#34;, &amp;#34;Surfing&amp;#34;, &amp;#34;Cycling&amp;#34;, &amp;#34;Longboarding&amp;#34;, &amp;#34;Photography&amp;#34;, &amp;#34;Apple&amp;#34;, &amp;#34;Skiing&amp;#34; ], //from 1-5 computerskills:{ java: 3, javascript: 4, python: 2, haskell: 1, php: 2, c: 1, docker: 3, sql: 2, git: 4 }, lifeBeforeToday:{ university: { university: &amp;#34;TU Dortmund&amp;#34;, since: 1412121600000, subject: &amp;#34;Computer Science&amp;#34; }, school: &amp;#34;high-school diploma at &amp;#39;Lessing Schule&amp;#39;&amp;#34;, jobs: [ { company: &amp;#34;bee42 (bee42.com)&amp;#34;, position: &amp;#34;Working Student: improve Training examples for Kubernetes, GitLab etc&amp;#34;, period:[&amp;#34;2018-12&amp;#34;,.</description>
@@ -65,7 +67,7 @@ Turns out it is difficult. I believe these things are made to never be touched a
       <title>Impressum</title>
       <link>https://tillepille.github.io/impressum/</link>
       <pubDate>Tue, 13 Nov 2018 21:31:13 +0100</pubDate>
-      
+      <author>tim@tillepille.io (Tim Schrumpf)</author>
       <guid>https://tillepille.github.io/impressum/</guid>
       <description>Datenschutz Diese Seite verwendet keinerlei Cookies oder sonstiges Tracking.
 Server-Log- Files Der Provider der Seiten erhebt und speichert automatisch Informationen in so genannten Server-Log Files, die Ihr Browser automatisch an uns übermittelt. Dies sind: - Browsertyp und Browserversion - verwendetes Betriebssystem - Referrer URL - Hostname des zugreifenden Rechners - Uhrzeit der Serveranfrage
@@ -76,7 +78,7 @@ Diese Daten sind nicht bestimmten Personen zuordenbar. Eine Zusammenführung die
       <title>Speedtests</title>
       <link>https://tillepille.github.io/posts/speedtests/</link>
       <pubDate>Tue, 13 Nov 2018 21:30:15 +0100</pubDate>
-      
+      <author>tim@tillepille.io (Tim Schrumpf)</author>
       <guid>https://tillepille.github.io/posts/speedtests/</guid>
       <description>about browsers und speedtests
 Internet of Speeds Since I got a Gigabit Connection at home over DOCSIS 3.1 (at least Downsteam, Upstream is 50MBit), i like too see how fast my internet is. When your alone there aren‘t really many use cases where you need such a fast connection.
@@ -87,7 +89,7 @@ But beside seeing the speeds on the interface of the router, eventually it was d
       <title>My First Post</title>
       <link>https://tillepille.github.io/posts/my-first-post/</link>
       <pubDate>Tue, 13 Nov 2018 21:29:27 +0100</pubDate>
-      
+      <author>tim@tillepille.io (Tim Schrumpf)</author>
       <guid>https://tillepille.github.io/posts/my-first-post/</guid>
       <description>&amp;ldquo;write a blog!&amp;rdquo; they said&amp;hellip; Okay, so here I am. Or at least my blog.
 Since I&amp;rsquo;m a computer science student, i do it on github rather than on tumblr&amp;hellip; As you can see, powered with hugo and currently no Pipeline.. :(</description>

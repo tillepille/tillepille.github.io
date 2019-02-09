@@ -5,6 +5,8 @@
     <link>https://tillepille.github.io/categories/</link>
     <description>Recent content in Categories on tillepille</description>
     <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>tim@tillepille.io (Tim Schrumpf)</managingEditor>
+    <webMaster>tim@tillepille.io (Tim Schrumpf)</webMaster>
     
 	<atom:link href="https://tillepille.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     

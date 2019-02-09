@@ -5,6 +5,8 @@
     <link>https://tillepille.github.io/posts/</link>
     <description>Recent content in Posts on tillepille</description>
     <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>tim@tillepille.io (Tim Schrumpf)</managingEditor>
+    <webMaster>tim@tillepille.io (Tim Schrumpf)</webMaster>
     <lastBuildDate>Sat, 02 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://tillepille.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -14,7 +16,7 @@
       <title>First Times</title>
       <link>https://tillepille.github.io/posts/first-times/</link>
       <pubDate>Sat, 02 Feb 2019 00:00:00 +0000</pubDate>
-      
+      <author>tim@tillepille.io (Tim Schrumpf)</author>
       <guid>https://tillepille.github.io/posts/first-times/</guid>
       <description>first time actual working So I started officially in December at bee42 as a working student. The first weeks in December were a little chaotic, my two colleagues were at KubeCon Seattle for a week but later onto this.
 The first days didn&amp;rsquo;t feel like real work. It was a strange feeling to get paid for just hacking around a little bit, trying, failing, asking obvious questions, Christmas just a few days to go.</description>
@@ -24,7 +26,7 @@ The first days didn&amp;rsquo;t feel like real work. It was a strange feeling to
       <title>Go Lang Adventure</title>
       <link>https://tillepille.github.io/posts/go-lang/</link>
       <pubDate>Fri, 07 Dec 2018 20:15:20 +0000</pubDate>
-      
+      <author>tim@tillepille.io (Tim Schrumpf)</author>
       <guid>https://tillepille.github.io/posts/go-lang/</guid>
       <description>This week I participated in a Hackathon organized by bee42 at their location. It was focused on students of the FH Dortmund grad school, but me and a friend of me participated as well. We both know Docker and had experience working with git, wich, unfortunately, the other students didn&amp;rsquo;t seem to have.
 The goal was to make a better version of https://github.com/dockersamples/example-voting-app, to be mindful of the 12 factor rules and just have fun, of course!</description>
@@ -34,7 +36,7 @@ The goal was to make a better version of https://github.com/dockersamples/exampl
       <title>How to get a Job</title>
       <link>https://tillepille.github.io/posts/how-to-get-a-job/</link>
       <pubDate>Sun, 25 Nov 2018 16:19:27 +0100</pubDate>
-      
+      <author>tim@tillepille.io (Tim Schrumpf)</author>
       <guid>https://tillepille.github.io/posts/how-to-get-a-job/</guid>
       <description>My way until now My dad is a self-employed IT-Consultant, mainly focused on private persons to small businesses, everything from hardware and network/telephone wiring to software and service. Also some cozy, never-think-about mail and webhosting. I helped here and there, mainly focused on the hosting and everything related to Apple.
 I started computer science in 2014 at the TU Dortmund, right next to my city, started to slow down my pace sometime but doing all the things, I saw some sense in for the practical future: Distributed Systems, Software Architecture, programming classes and even functional programming in Haskell, but really tuck away from the heavy math stuff.</description>
@@ -44,7 +46,7 @@ I started computer science in 2014 at the TU Dortmund, right next to my city, st
       <title>Speedtests</title>
       <link>https://tillepille.github.io/posts/speedtests/</link>
       <pubDate>Tue, 13 Nov 2018 21:30:15 +0100</pubDate>
-      
+      <author>tim@tillepille.io (Tim Schrumpf)</author>
       <guid>https://tillepille.github.io/posts/speedtests/</guid>
       <description>about browsers und speedtests
 Internet of Speeds Since I got a Gigabit Connection at home over DOCSIS 3.1 (at least Downsteam, Upstream is 50MBit), i like too see how fast my internet is. When your alone there aren‘t really many use cases where you need such a fast connection.
@@ -55,7 +57,7 @@ But beside seeing the speeds on the interface of the router, eventually it was d
       <title>My First Post</title>
       <link>https://tillepille.github.io/posts/my-first-post/</link>
       <pubDate>Tue, 13 Nov 2018 21:29:27 +0100</pubDate>
-      
+      <author>tim@tillepille.io (Tim Schrumpf)</author>
       <guid>https://tillepille.github.io/posts/my-first-post/</guid>
       <description>&amp;ldquo;write a blog!&amp;rdquo; they said&amp;hellip; Okay, so here I am. Or at least my blog.
 Since I&amp;rsquo;m a computer science student, i do it on github rather than on tumblr&amp;hellip; As you can see, powered with hugo and currently no Pipeline.. :(</description>

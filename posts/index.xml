@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>tim@tillepille.io (Tim Schrumpf)</managingEditor>
     <webMaster>tim@tillepille.io (Tim Schrumpf)</webMaster>
-    <lastBuildDate>Sat, 02 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Aug 2021 20:15:20 +0000</lastBuildDate>
     
 	<atom:link href="https://tillepille.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hide your Storage behind Traefik</title>
+      <link>https://tillepille.github.io/posts/hide-storage-behind-traefik/</link>
+      <pubDate>Mon, 23 Aug 2021 20:15:20 +0000</pubDate>
+      <author>tim@tillepille.io (Tim Schrumpf)</author>
+      <guid>https://tillepille.github.io/posts/hide-storage-behind-traefik/</guid>
+      <description>As we transistion from an old fashioned server install for our Ruby application to Kubernetes we needed a solution for all the static assets like images, uploads or feeds. Our choice was blob storage, since its scalable, cheap and you dont have to care about it yourself. But how should our customers know the new adress? We thought a 301 is a little odd and we couldn&amp;rsquo;t be sure if all requesting endpoints could handle it correctly (I know, sounds cringe but thats how the world is).</description>
+    </item>
     
     <item>
       <title>First Times</title>

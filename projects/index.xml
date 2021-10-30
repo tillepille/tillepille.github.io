@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on tillepille</title>
@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>tim@tillepille.io (Tim Schrumpf)</managingEditor>
     <webMaster>tim@tillepille.io (Tim Schrumpf)</webMaster>
-    <lastBuildDate>Wed, 14 Nov 2018 22:08:47 +0000</lastBuildDate>
-    
-	<atom:link href="https://tillepille.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 14 Nov 2018 22:08:47 +0000</lastBuildDate><atom:link href="https://tillepille.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blinds for Homekit / Web</title>
       <link>https://tillepille.github.io/projects/blinds/</link>
@@ -20,7 +16,8 @@
       <guid>https://tillepille.github.io/projects/blinds/</guid>
       <description>For a long time we already had an automation for our blinds at home in the livingroom but at least twice a year, when there&amp;rsquo;s the change from summer to wintertime or the other way round, these things suck.
 Where&amp;rsquo;s the manual? I already did this a dozen times, can&amp;rsquo;t be so difficult&amp;hellip;
-Turns out it is difficult. I believe these things are made to never be touched again.</description>
+Turns out it is difficult. I believe these things are made to never be touched again.
+So far so good.</description>
     </item>
     
   </channel>

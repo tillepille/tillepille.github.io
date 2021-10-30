@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on tillepille</title>
@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>tim@tillepille.io (Tim Schrumpf)</managingEditor>
     <webMaster>tim@tillepille.io (Tim Schrumpf)</webMaster>
-    <lastBuildDate>Mon, 23 Aug 2021 20:15:20 +0000</lastBuildDate>
-    
-	<atom:link href="https://tillepille.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 23 Aug 2021 20:15:20 +0000</lastBuildDate><atom:link href="https://tillepille.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hide your Storage behind Traefik</title>
       <link>https://tillepille.github.io/posts/hide-storage-behind-traefik/</link>
@@ -59,7 +55,8 @@ I started computer science in 2014 at the TU Dortmund, right next to my city, st
       <guid>https://tillepille.github.io/posts/speedtests/</guid>
       <description>about browsers und speedtests
 Internet of Speeds Since I got a Gigabit Connection at home over DOCSIS 3.1 (at least Downsteam, Upstream is 50MBit), i like too see how fast my internet is. When your alone there aren‘t really many use cases where you need such a fast connection.
-But beside seeing the speeds on the interface of the router, eventually it was difficult to test the actual speeds.</description>
+But beside seeing the speeds on the interface of the router, eventually it was difficult to test the actual speeds.
+Disclaimer All the tests were made on a 2017 iMac with Cat5e cable connection.</description>
     </item>
     
     <item>

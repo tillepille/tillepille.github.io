@@ -58,7 +58,7 @@ The goal was to make a better version of https://github.com/dockersamples/exampl
     "name" : "Tim Schrumpf"
   },
   "headline": "Go Lang Adventure",
-  "description" : "This week I participated in a Hackathon organized by bee42 at their location. It was focused on students of the FH Dortmund grad school, but me and a friend of me participated as well. We both know Docker and had experience working with git, wich, unfortunately, the other students didn\x26rsquo;t seem to have.\nThe goal was to make a better version of https:\/\/github.com\/dockersamples\/example-voting-app, to be mindful of the 12 factor rules and just have fun, of course!",
+  "description" : "This week I participated in a Hackathon organized by bee42 at their location. It was focused on students of the FH Dortmund grad school, but me and a friend of me participated as well. We both know Docker and had experience working with git, wich, unfortunately, the other students didn\u0026rsquo;t seem to have.\nThe goal was to make a better version of https:\/\/github.com\/dockersamples\/example-voting-app, to be mindful of the 12 factor rules and just have fun, of course!",
   "inLanguage" : "en",
   "wordCount":  313 ,
   "datePublished" : "2018-12-07T20:15:20",
@@ -94,7 +94,7 @@ The goal was to make a better version of https://github.com/dockersamples/exampl
   <meta name="twitter:site" content="@timschrumpf" />
   <meta name="twitter:creator" content="@timschrumpf" />
   <link href='https://tillepille.github.io/img/favicon.ico' rel='icon' type='image/x-icon'/>
-  <meta name="generator" content="Hugo 0.55.6" />
+  <meta name="generator" content="Hugo 0.89.0-DEV" />
   <link rel="alternate" href="https://tillepille.github.io/index.xml" type="application/rss+xml" title="tillepille"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="https://tillepille.github.io/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
@@ -255,32 +255,18 @@ The goal was to make a better version of https://github.com/dockersamples/exampl
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        
-
-<p>This week I participated in a Hackathon organized by <a href="https://bee42.com">bee42</a> at their location. It was focused on students of the FH Dortmund grad school, but me and a friend of me participated as well. We both know Docker and had experience working with git, wich, unfortunately, the other students didn&rsquo;t seem to have.</p>
-
+        <p>This week I participated in a Hackathon organized by <a href="https://bee42.com">bee42</a> at their location. It was focused on students of the FH Dortmund grad school, but me and a friend of me participated as well. We both know Docker and had experience working with git, wich, unfortunately, the other students didn&rsquo;t seem to have.</p>
 <p>The goal was to make a better version of <a href="https://github.com/dockersamples/example-voting-app">https://github.com/dockersamples/example-voting-app</a>, to be mindful of the <a href="https://12factor.net">12 factor rules</a> and just have fun, of course!</p>
-
 <p>After we managed to improve both the voting as well as the result service, we had the keen idea to completly rewrite the worker in Go.</p>
-
 <p>You need to pop a Vote <code>{id:vote}</code> from a redis list and store it or update it into a SQL Database  (in this case a Postgres).</p>
-
 <h2 id="just-jump-right-in">Just jump right in</h2>
-
 <p>We never used Go, nor had it installed, so we just used it in a container 😎.</p>
-
 <p>After getting a first look &amp; feel on the language, printing out some &lsquo;helloWorlds&rsquo; our first big issue occured. MODULES.</p>
-
 <p>I used a lot Nodejs recently just go <code>npm install whatever-package</code> and you&rsquo;re good. Maybe it seem so complicated because we were in a hurry but for me this was far from comfortable or easy.</p>
-
 <p>But with some help we managed to have our errors about other things than missing imports&hellip;</p>
-
 <p>At the end we didn&rsquo;t have enough time to get it running properly, but I think i really learned a lot</p>
-
 <h2 id="lessons-learned">Lessons learned</h2>
-
 <p>Besides the fun diving into a completly new language (no matter wich one), Go showed me, that some languages are more difficult to pick up than others, C knowledge matters everywhere, or better knowledge on how a process works with allocations, pointers and so on, and that I should work on that for myself.</p>
-
 <p>Either way,  I had a ton of fun and will learn more about that language!</p>
 
 
@@ -413,7 +399,7 @@ The goal was to make a better version of https://github.com/dockersamples/exampl
         </p>
         
         <p class="credits theme-by text-muted">
-          <a href="https://gohugo.io">Hugo v0.55.6</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          <a href="https://gohugo.io">Hugo v0.89.0-DEV</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
           
         </p>
       </div>

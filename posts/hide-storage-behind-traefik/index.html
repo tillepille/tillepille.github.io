@@ -57,7 +57,7 @@
     "name" : "Tim Schrumpf"
   },
   "headline": "Hide your Storage behind Traefik",
-  "description" : "As we transistion from an old fashioned server install for our Ruby application to Kubernetes we needed a solution for all the static assets like images, uploads or feeds. Our choice was blob storage, since its scalable, cheap and you dont have to care about it yourself. But how should our customers know the new adress? We thought a 301 is a little odd and we couldn\x26rsquo;t be sure if all requesting endpoints could handle it correctly (I know, sounds cringe but thats how the world is).",
+  "description" : "As we transistion from an old fashioned server install for our Ruby application to Kubernetes we needed a solution for all the static assets like images, uploads or feeds. Our choice was blob storage, since its scalable, cheap and you dont have to care about it yourself. But how should our customers know the new adress? We thought a 301 is a little odd and we couldn\u0026rsquo;t be sure if all requesting endpoints could handle it correctly (I know, sounds cringe but thats how the world is).",
   "inLanguage" : "en",
   "wordCount":  336 ,
   "datePublished" : "2021-08-23T20:15:20",
@@ -92,7 +92,7 @@
   <meta name="twitter:site" content="@timschrumpf" />
   <meta name="twitter:creator" content="@timschrumpf" />
   <link href='https://tillepille.github.io/img/favicon.ico' rel='icon' type='image/x-icon'/>
-  <meta name="generator" content="Hugo 0.55.6" />
+  <meta name="generator" content="Hugo 0.89.0-DEV" />
   <link rel="alternate" href="https://tillepille.github.io/index.xml" type="application/rss+xml" title="tillepille"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="https://tillepille.github.io/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
@@ -253,83 +253,71 @@
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        
-
-<p>As we transistion from an old fashioned server install for our Ruby application to Kubernetes we needed a solution for all the static assets like images, uploads or feeds.
+        <p>As we transistion from an old fashioned server install for our Ruby application to Kubernetes we needed a solution for all the static assets like images, uploads or feeds.
 Our choice was blob storage, since its scalable, cheap and you dont have to care about it yourself. But how should our customers know the new adress? We thought a 301 is a little odd and we couldn&rsquo;t be sure if all requesting endpoints could handle it correctly (I know, sounds cringe but thats how the world is). Also there were concerns from our SEO team that we would loose some of our Google ranking.
 As we are as developers, we make the impossible possible:</p>
-
 <p>So we make use of the Kubernetes service feature <code>ExternalName</code>. This creates a Kubernetes endpoint to the outside world, in the end its just a CNAME for the original adress.</p>
-
 <h3 id="service">Service</h3>
-
 <p>Let&rsquo;s start with the service itself</p>
-<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml">apiVersion<span class="p">:</span><span class="w"> </span>v1<span class="w">
-</span><span class="w"></span>kind<span class="p">:</span><span class="w"> </span>Service<span class="w">
-</span><span class="w"></span>metadata<span class="p">:</span><span class="w">
-</span><span class="w">  </span>name<span class="p">:</span><span class="w"> </span>asset-proxy<span class="w">
-</span><span class="w"></span>spec<span class="p">:</span><span class="w">
-</span><span class="w">  </span>externalName<span class="p">:</span><span class="w"> </span>ourrubyassets.blob.core.windows.net<span class="w"> </span><span class="c"># this is the bucket name</span><span class="w">
-</span><span class="w">  </span>ports<span class="p">:</span><span class="w">
-</span><span class="w">  </span>-<span class="w"> </span>name<span class="p">:</span><span class="w"> </span>https<span class="w">
-</span><span class="w">    </span>port<span class="p">:</span><span class="w"> </span><span class="m">443</span><span class="w">
-</span><span class="w">    </span>protocol<span class="p">:</span><span class="w"> </span>TCP<span class="w">
-</span><span class="w">    </span>targetPort<span class="p">:</span><span class="w"> </span><span class="m">443</span><span class="w">
-</span><span class="w">  </span>sessionAffinity<span class="p">:</span><span class="w"> </span>None<span class="w">
-</span><span class="w">  </span>type<span class="p">:</span><span class="w"> </span>ExternalName</code></pre></div>
-<h3 id="ingress">Ingress</h3>
-
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="nt">apiVersion</span><span class="p">:</span><span class="w"> </span><span class="l">v1</span><span class="w">
+</span><span class="w"></span><span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l">Service</span><span class="w">
+</span><span class="w"></span><span class="nt">metadata</span><span class="p">:</span><span class="w">
+</span><span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">asset-proxy</span><span class="w">
+</span><span class="w"></span><span class="nt">spec</span><span class="p">:</span><span class="w">
+</span><span class="w">  </span><span class="nt">externalName</span><span class="p">:</span><span class="w"> </span><span class="l">ourrubyassets.blob.core.windows.net</span><span class="w"> </span><span class="c"># this is the bucket name</span><span class="w">
+</span><span class="w">  </span><span class="nt">ports</span><span class="p">:</span><span class="w">
+</span><span class="w">  </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">https</span><span class="w">
+</span><span class="w">    </span><span class="nt">port</span><span class="p">:</span><span class="w"> </span><span class="m">443</span><span class="w">
+</span><span class="w">    </span><span class="nt">protocol</span><span class="p">:</span><span class="w"> </span><span class="l">TCP</span><span class="w">
+</span><span class="w">    </span><span class="nt">targetPort</span><span class="p">:</span><span class="w"> </span><span class="m">443</span><span class="w">
+</span><span class="w">  </span><span class="nt">sessionAffinity</span><span class="p">:</span><span class="w"> </span><span class="l">None</span><span class="w">
+</span><span class="w">  </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l">ExternalName</span><span class="w">
+</span></code></pre></div><h3 id="ingress">Ingress</h3>
 <p>As seen, there are some basics enabled like gzipping the assets, and enabling all the middleware we are creating down below.</p>
-<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml">apiVersion<span class="p">:</span><span class="w"> </span>extensions/v1beta1<span class="w">
-</span><span class="w"></span>kind<span class="p">:</span><span class="w"> </span>Ingress<span class="w">
-</span><span class="w"></span>metadata<span class="p">:</span><span class="w">
-</span><span class="w">  </span>annotations<span class="p">:</span><span class="w">
-</span><span class="w">    </span>traefik.ingress.kubernetes.io/router.entrypoints<span class="p">:</span><span class="w"> </span>web<span class="p">,</span><span class="w"> </span>websecure<span class="w">
-</span><span class="w">    </span>traefik.ingress.kubernetes.io/router.middlewares<span class="p">:</span><span class="w"> </span>proxy-path-rewrite@kubernetescrd<span class="p">,</span>production-static-asset-redirect-header@kubernetescrd<span class="p">,</span>gzip@kubernetescrd<span class="w">
-</span><span class="w">    </span>traefik.ingress.kubernetes.io/router.tls<span class="p">:</span><span class="w"> </span><span class="s1">&#39;true&#39;</span><span class="w">
-</span><span class="w">    </span>traefik.ingress.kubernetes.io/router.tls.certresolver<span class="p">:</span><span class="w"> </span>myresolver<span class="w">
-</span><span class="w">  </span>name<span class="p">:</span><span class="w"> </span>asset-proxy<span class="w">
-</span><span class="w"></span>spec<span class="p">:</span><span class="w">
-</span><span class="w">  </span>rules<span class="p">:</span><span class="w">
-</span><span class="w">  </span>-<span class="w"> </span>host<span class="p">:</span><span class="w"> </span><span class="s1">&#39;tillepille.io&#39;</span><span class="w">
-</span><span class="w">    </span>http<span class="p">:</span><span class="w">
-</span><span class="w">      </span>paths<span class="p">:</span><span class="w">
-</span><span class="w">      </span>-<span class="w"> </span>backend<span class="p">:</span><span class="w">
-</span><span class="w">          </span>serviceName<span class="p">:</span><span class="w"> </span>asset-proxy<span class="w">
-</span><span class="w">          </span>servicePort<span class="p">:</span><span class="w"> </span>https<span class="w">
-</span><span class="w">        </span>path<span class="p">:</span><span class="w"> </span><span class="s1">&#39;/packs/&#39;</span><span class="w"> </span><span class="c"># The path for the static files you want to serve</span><span class="w">
-</span><span class="w">        </span>pathType<span class="p">:</span><span class="w"> </span>ImplementationSpecific</code></pre></div>
-<h3 id="rewrite">Rewrite</h3>
-
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="nt">apiVersion</span><span class="p">:</span><span class="w"> </span><span class="l">extensions/v1beta1</span><span class="w">
+</span><span class="w"></span><span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l">Ingress</span><span class="w">
+</span><span class="w"></span><span class="nt">metadata</span><span class="p">:</span><span class="w">
+</span><span class="w">  </span><span class="nt">annotations</span><span class="p">:</span><span class="w">
+</span><span class="w">    </span><span class="nt">traefik.ingress.kubernetes.io/router.entrypoints</span><span class="p">:</span><span class="w"> </span><span class="l">web, websecure</span><span class="w">
+</span><span class="w">    </span><span class="nt">traefik.ingress.kubernetes.io/router.middlewares</span><span class="p">:</span><span class="w"> </span><span class="l">proxy-path-rewrite@kubernetescrd,production-static-asset-redirect-header@kubernetescrd,gzip@kubernetescrd</span><span class="w">
+</span><span class="w">    </span><span class="nt">traefik.ingress.kubernetes.io/router.tls</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;true&#39;</span><span class="w">
+</span><span class="w">    </span><span class="nt">traefik.ingress.kubernetes.io/router.tls.certresolver</span><span class="p">:</span><span class="w"> </span><span class="l">myresolver</span><span class="w">
+</span><span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">asset-proxy</span><span class="w">
+</span><span class="w"></span><span class="nt">spec</span><span class="p">:</span><span class="w">
+</span><span class="w">  </span><span class="nt">rules</span><span class="p">:</span><span class="w">
+</span><span class="w">  </span>- <span class="nt">host</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;tillepille.io&#39;</span><span class="w">
+</span><span class="w">    </span><span class="nt">http</span><span class="p">:</span><span class="w">
+</span><span class="w">      </span><span class="nt">paths</span><span class="p">:</span><span class="w">
+</span><span class="w">      </span>- <span class="nt">backend</span><span class="p">:</span><span class="w">
+</span><span class="w">          </span><span class="nt">serviceName</span><span class="p">:</span><span class="w"> </span><span class="l">asset-proxy</span><span class="w">
+</span><span class="w">          </span><span class="nt">servicePort</span><span class="p">:</span><span class="w"> </span><span class="l">https</span><span class="w">
+</span><span class="w">        </span><span class="nt">path</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;/packs/&#39;</span><span class="w"> </span><span class="c"># The path for the static files you want to serve</span><span class="w">
+</span><span class="w">        </span><span class="nt">pathType</span><span class="p">:</span><span class="w"> </span><span class="l">ImplementationSpecific</span><span class="w">
+</span></code></pre></div><h3 id="rewrite">Rewrite</h3>
 <p>Since we have one Storage Account for multiple buckets and Azure makes your buckets only available as subpaths, we neew to rewrite the request.</p>
-<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml">apiVersion<span class="p">:</span><span class="w"> </span>traefik.containo.us/v1alpha1<span class="w">
-</span><span class="w"></span>kind<span class="p">:</span><span class="w"> </span>Middleware<span class="w">
-</span><span class="w"></span>metadata<span class="p">:</span><span class="w">
-</span><span class="w">  </span>name<span class="p">:</span><span class="w"> </span>proxy-path-rewrite<span class="w">
-</span><span class="w"></span>spec<span class="p">:</span><span class="w">
-</span><span class="w">  </span>replacePathRegex<span class="p">:</span><span class="w">
-</span><span class="w">    </span>regex<span class="p">:</span><span class="w"> </span><span class="s1">&#39;^/packs/(.*)&#39;</span><span class="w">
-</span><span class="w">    </span>replacement<span class="p">:</span><span class="w"> </span><span class="s1">&#39;/assets/packs/$1&#39;</span></code></pre></div>
-<h3 id="header">Header</h3>
-
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="nt">apiVersion</span><span class="p">:</span><span class="w"> </span><span class="l">traefik.containo.us/v1alpha1</span><span class="w">
+</span><span class="w"></span><span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l">Middleware</span><span class="w">
+</span><span class="w"></span><span class="nt">metadata</span><span class="p">:</span><span class="w">
+</span><span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">proxy-path-rewrite</span><span class="w">
+</span><span class="w"></span><span class="nt">spec</span><span class="p">:</span><span class="w">
+</span><span class="w">  </span><span class="nt">replacePathRegex</span><span class="p">:</span><span class="w">
+</span><span class="w">    </span><span class="nt">regex</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;^/packs/(.*)&#39;</span><span class="w">
+</span><span class="w">    </span><span class="nt">replacement</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;/assets/packs/$1&#39;</span><span class="w">
+</span></code></pre></div><h3 id="header">Header</h3>
 <p>We have to rewrite the headers of the request to match the headers for correct TLS connections.</p>
-<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml">apiVersion<span class="p">:</span><span class="w"> </span>traefik.containo.us/v1alpha1<span class="w">
-</span><span class="w"></span>kind<span class="p">:</span><span class="w"> </span>Middleware<span class="w">
-</span><span class="w"></span>metadata<span class="p">:</span><span class="w">
-</span><span class="w">  </span>name<span class="p">:</span><span class="w"> </span>proxy-rewrite-header<span class="w">
-</span><span class="w"></span>spec<span class="p">:</span><span class="w">
-</span><span class="w">  </span>headers<span class="p">:</span><span class="w">
-</span><span class="w">    </span>customRequestHeaders<span class="p">:</span><span class="w">
-</span><span class="w">      </span>Authorization<span class="p">:</span><span class="w"> </span><span class="s1">&#39;&#39;</span><span class="w">
-</span><span class="w">      </span>Host<span class="p">:</span><span class="w"> </span><span class="s1">&#39;ourrubyassets.blob.core.windows.net&#39;</span><span class="w"> </span><span class="c"># the name of your original bucket</span></code></pre></div>
-<h2 id="full-path">Full Path</h2>
-
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="nt">apiVersion</span><span class="p">:</span><span class="w"> </span><span class="l">traefik.containo.us/v1alpha1</span><span class="w">
+</span><span class="w"></span><span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l">Middleware</span><span class="w">
+</span><span class="w"></span><span class="nt">metadata</span><span class="p">:</span><span class="w">
+</span><span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">proxy-rewrite-header</span><span class="w">
+</span><span class="w"></span><span class="nt">spec</span><span class="p">:</span><span class="w">
+</span><span class="w">  </span><span class="nt">headers</span><span class="p">:</span><span class="w">
+</span><span class="w">    </span><span class="nt">customRequestHeaders</span><span class="p">:</span><span class="w">
+</span><span class="w">      </span><span class="nt">Authorization</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;&#39;</span><span class="w">
+</span><span class="w">      </span><span class="nt">Host</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;ourrubyassets.blob.core.windows.net&#39;</span><span class="w"> </span><span class="c"># the name of your original bucket</span><span class="w">
+</span></code></pre></div><h2 id="full-path">Full Path</h2>
 <p>So now, when we have somewhere an image under e.g. <code>tillepille.io/packs/image.png</code> the request gets modified to <code>ourrubyassets.blob.core.windows.net/assets/packs/image.png</code>.</p>
-
 <h2 id="conclusion">Conclusion</h2>
-
 <p>Effectivly we are proxying everything through our ingress controller, but together with a CDN in front, we didn&rsquo;t see any issues at all.</p>
-
 <p>The benefit of this is, that you can store all your files on storage you don&rsquo;t have to manage but still keep the full control, how it looks to your customer.
 The base concept works for other ingress controller, as well, you just have to find out how to modify the headers.</p>
 
@@ -459,7 +447,7 @@ The base concept works for other ingress controller, as well, you just have to f
         </p>
         
         <p class="credits theme-by text-muted">
-          <a href="https://gohugo.io">Hugo v0.55.6</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          <a href="https://gohugo.io">Hugo v0.89.0-DEV</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
           
         </p>
       </div>

@@ -10,7 +10,8 @@
   <title>Blinds for Homekit / Web - tillepille</title>
   <meta name="description" content="For a long time we already had an automation for our blinds at home in the livingroom but at least twice a year, when there&rsquo;s the change from summer to wintertime or the other way round, these things suck.
 Where&rsquo;s the manual? I already did this a dozen times, can&rsquo;t be so difficult&hellip;
-Turns out it is difficult. I believe these things are made to never be touched again.">
+Turns out it is difficult. I believe these things are made to never be touched again.
+So far so good.">
   <meta name="author" content="Tim Schrumpf"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -47,7 +48,7 @@ Turns out it is difficult. I believe these things are made to never be touched a
         "position": 3,
         "item": {
           "@id": "https:\/\/tillepille.github.io\/projects\/blinds\/",
-          "name": "Blinds for homekit \/ web"
+          "name": "Blinds for homekit web"
         }
     }]
 }
@@ -59,7 +60,7 @@ Turns out it is difficult. I believe these things are made to never be touched a
     "name" : "Tim Schrumpf"
   },
   "headline": "Blinds for Homekit \/ Web",
-  "description" : "For a long time we already had an automation for our blinds at home in the livingroom but at least twice a year, when there\x26rsquo;s the change from summer to wintertime or the other way round, these things suck.\nWhere\x26rsquo;s the manual? I already did this a dozen times, can\x26rsquo;t be so difficult\x26hellip;\nTurns out it is difficult. I believe these things are made to never be touched again.",
+  "description" : "For a long time we already had an automation for our blinds at home in the livingroom but at least twice a year, when there\u0026rsquo;s the change from summer to wintertime or the other way round, these things suck.\nWhere\u0026rsquo;s the manual? I already did this a dozen times, can\u0026rsquo;t be so difficult\u0026hellip;\nTurns out it is difficult. I believe these things are made to never be touched again.\nSo far so good.",
   "inLanguage" : "en",
   "wordCount":  724 ,
   "datePublished" : "2018-11-14T22:08:47",
@@ -83,7 +84,8 @@ Turns out it is difficult. I believe these things are made to never be touched a
 <meta property="og:title" content="Blinds for Homekit / Web" />
 <meta property="og:description" content="For a long time we already had an automation for our blinds at home in the livingroom but at least twice a year, when there&rsquo;s the change from summer to wintertime or the other way round, these things suck.
 Where&rsquo;s the manual? I already did this a dozen times, can&rsquo;t be so difficult&hellip;
-Turns out it is difficult. I believe these things are made to never be touched again.">
+Turns out it is difficult. I believe these things are made to never be touched again.
+So far so good.">
 <meta property="og:image" content="https://tillepille.github.io/img/avatar-icon.png" />
 <meta property="og:url" content="https://tillepille.github.io/projects/blinds/" />
 <meta property="og:type" content="website" />
@@ -96,7 +98,7 @@ Turns out it is difficult. I believe these things are made to never be touched a
   <meta name="twitter:site" content="@timschrumpf" />
   <meta name="twitter:creator" content="@timschrumpf" />
   <link href='https://tillepille.github.io/img/favicon.ico' rel='icon' type='image/x-icon'/>
-  <meta name="generator" content="Hugo 0.55.6" />
+  <meta name="generator" content="Hugo 0.89.0-DEV" />
   <link rel="alternate" href="https://tillepille.github.io/index.xml" type="application/rss+xml" title="tillepille"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="https://tillepille.github.io/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
@@ -257,82 +259,53 @@ Turns out it is difficult. I believe these things are made to never be touched a
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        
-
-<p>For a long time we already had an automation for our blinds at home in the livingroom but at least twice a year, when there&rsquo;s the change from summer to wintertime or the other way round, these things <strong>suck</strong>.</p>
-
+        <p>For a long time we already had an automation for our blinds at home in the livingroom but at least twice a year, when there&rsquo;s the change from summer to wintertime or the other way round, these things <strong>suck</strong>.</p>
 <p><em>Where&rsquo;s the manual? I already did this a dozen times, can&rsquo;t be so difficult&hellip;</em></p>
-
 <p>Turns out it is difficult. I believe these things are made to never be touched again.</p>
-
 <p>So far so good.
 Since the broadening of home automation solutions, especially HomeKit there was the need to add other devices without an official certification.
 For this is <a href="https://github.com/nfarina/homebridge">homebridge</a>, but after a quick&rsquo;n&rsquo;dirty search for a plug and play solution i didn&rsquo;t find anything very useful. Next step, order a Raspberry Pi zero, a double relay, read somewhere about how easy it is to use gpio with Python.</p>
-
-<h2 id="update-2018-11-29">Update 2018-11-29 :</h2>
-
+<h2 id="update-2018-11-29-">Update 2018-11-29 :</h2>
 <p>I just moved the Frontend into the main Repository so it&rsquo;s much more transparent to see, whats going on there for everyone.</p>
-
 <h3 id="first-steps">First Steps</h3>
-
 <p>So Python is an interpreted language, wich is very nice for hacking like this because, whenever you save a change to the file, your system gets restarted.</p>
-
 <p>My first approach was a flask boilerplate with some routes so you get an understanding on how this works there.</p>
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="nd">@app.route</span><span class="p">(</span><span class="s1">&#39;/status&#39;</span><span class="p">)</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/status&#39;</span><span class="p">)</span>
 <span class="k">def</span> <span class="nf">status</span><span class="p">()</span>
-	<span class="k">return</span> <span class="s2">&#34;something&#34;</span></code></pre></div>
-<p>So the second step is how to make things blink.</p>
-
+	<span class="k">return</span> <span class="s2">&#34;something&#34;</span>
+</code></pre></div><p>So the second step is how to make things blink.</p>
 <p>Nice thing about the common relays you get on ebay or amazon or somewhere else, they all have a LED for the activated relay.</p>
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">gpiozero</span> <span class="kn">import</span> <span class="n">LED</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">gpiozero</span> <span class="kn">import</span> <span class="n">LED</span>
 <span class="n">pinNumber</span> <span class="o">=</span> <span class="mi">27</span>
 <span class="n">roll</span> <span class="o">=</span> <span class="n">LED</span><span class="p">(</span><span class="n">pinNumber</span><span class="p">)</span>
 <span class="n">roll</span><span class="o">.</span><span class="n">on</span><span class="p">()</span>
-<span class="c1"># is now on...</span></code></pre></div>
-<p>So if you&rsquo;re a Sherlock you can do things like this:</p>
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="nd">@app.route</span><span class="p">(</span><span class="s1">&#39;/turn-on&#39;</span><span class="p">)</span>
+<span class="c1"># is now on...</span>
+</code></pre></div><p>So if you&rsquo;re a Sherlock you can do things like this:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/turn-on&#39;</span><span class="p">)</span>
 <span class="k">def</span> <span class="nf">turnOn</span><span class="p">()</span>
 	<span class="n">roll</span><span class="o">.</span><span class="n">on</span><span class="p">()</span>
-    <span class="k">return</span> <span class="s2">&#34;your LED is now on! aka something is moving!&#34;</span></code></pre></div>
-<h3 id="fine-tuning">Fine Tuning</h3>
-
+    <span class="k">return</span> <span class="s2">&#34;your LED is now on! aka something is moving!&#34;</span>
+</code></pre></div><h3 id="fine-tuning">Fine Tuning</h3>
 <p>Sometimes when is really hot outside or the sun is shining on your glossy screen, you don&rsquo;t want to close the blinds completely but rather just 50%.</p>
-
 <p>So for this case, the only known method to me is to make this over a time factor. Movement should be pretty constant, so moving 20% should require double the time of 10% moving. But because there is some difference between the upward and downward movement, you need two factors to calculate the time.</p>
-
 <p>So this is how i made it work:</p>
-
 <ol>
-<li><code>travel = int(abs(currentHeight - desiredHeight))</code></li>
-<li><code>sleep(travel * config.upFactor)</code> or <code>config.downFactor</code></li>
+<li><code> travel = int(abs(currentHeight - desiredHeight))</code></li>
+<li><code>sleep(travel * config.upFactor) </code> or <code>config.downFactor</code></li>
 </ol>
-
 <p>But because this isn&rsquo;t the completly perfect method, i reset the <code>currentHeight</code> whenever I want it 0 or 100.</p>
-
 <p>Lastly, Flask runs threaded on default, means for every new request it spins up a new thread. Since the HomeKit drag options makes a lot of calls when you move your finger slowly, i disabled this feature with <code>app.run(debug=False, host='0.0.0.0', threaded=False)</code>. Flask also runs at localhost per default, so change that, too.</p>
-
 <h2 id="frontend">Frontend</h2>
-
 <p>Because I already had the vue-cli installed, i started with the minimal boilerplate which ships with it, deleted everything unnecessary and hacked a mobile-optimized button layout together. I see there some potential to make it more usable but does the work for now..</p>
-
 <h2 id="recap-what-i-learned">Recap: What I learned</h2>
-
 <p>My biggest gain with this little project is that python is really easy to pick up, build a prototype and play around with it. I definetly have no idea how Python performs in a production enviroment where it counts on speed and security. But as long as i treat my home network as a secure enviroment, this shouldn&rsquo;t become a problem.</p>
-
 <p>Second, Flask is a nice framework, easy to understand when you&rsquo;d like to do something real quick. So a recommendation for a project like this.</p>
-
 <p>Because there are a lot of people who aren&rsquo;t using Apple&rsquo;s HomeKit I build my first <a href="https://vuejs.org">Vue.js</a> Frontend for this case where you have two big buttons and a slider for the percental settings (Link below).</p>
-
 <p>I played around with Vue for another project but it was a rather complex thing to start with it. I created a project with vue-cli and deleted everything i didn&rsquo;t need, maybe not the best approach for such a simple thing, but I really like the approach to have your HTML, JS and CSS all in just one file. You can split up your Frontend in different submodules wich is very neat in my opinion!</p>
-
 <p><strong>The exported project embedded in the main repository, ready to use!</strong></p>
-
 <h2 id="links">Links</h2>
-
 <p><a href="https://github.com/tillepille/rolladensteuerung">My repository</a></p>
-
 <p><a href="http://flask.pocoo.org">Flask</a></p>
-
 <p><a href="https://github.com/tillepille/rolladensteuerung-frontend">My Frontend</a></p>
 
 
@@ -457,7 +430,7 @@ For this is <a href="https://github.com/nfarina/homebridge">homebridge</a>, but 
         </p>
         
         <p class="credits theme-by text-muted">
-          <a href="https://gohugo.io">Hugo v0.55.6</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          <a href="https://gohugo.io">Hugo v0.89.0-DEV</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
           
         </p>
       </div>

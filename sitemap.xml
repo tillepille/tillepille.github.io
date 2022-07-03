@@ -3,13 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://tillepille.github.io/</loc>
-    <lastmod>2021-08-23T20:15:20+00:00</lastmod>
+    <lastmod>2022-05-25T20:15:20+00:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>https://tillepille.github.io/posts/hide-storage-behind-traefik/</loc>
-    <lastmod>2021-08-23T20:15:20+00:00</lastmod>
+    <loc>https://tillepille.github.io/posts/kubecon22/</loc>
+    <lastmod>2022-05-25T20:15:20+00:00</lastmod>
   </url><url>
     <loc>https://tillepille.github.io/posts/</loc>
+    <lastmod>2022-05-25T20:15:20+00:00</lastmod>
+  </url><url>
+    <loc>https://tillepille.github.io/posts/hide-storage-behind-traefik/</loc>
     <lastmod>2021-08-23T20:15:20+00:00</lastmod>
   </url><url>
     <loc>https://tillepille.github.io/posts/first-times/</loc>

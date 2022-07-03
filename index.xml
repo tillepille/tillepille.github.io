@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>tim@tillepille.io (Tim Schrumpf)</managingEditor>
     <webMaster>tim@tillepille.io (Tim Schrumpf)</webMaster>
-    <lastBuildDate>Mon, 23 Aug 2021 20:15:20 +0000</lastBuildDate><atom:link href="https://tillepille.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 May 2022 20:15:20 +0000</lastBuildDate><atom:link href="https://tillepille.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>KubeCon EU 2022 in Valencia</title>
+      <link>https://tillepille.github.io/posts/kubecon22/</link>
+      <pubDate>Wed, 25 May 2022 20:15:20 +0000</pubDate>
+      <author>tim@tillepille.io (Tim Schrumpf)</author>
+      <guid>https://tillepille.github.io/posts/kubecon22/</guid>
+      <description>recycled from an internal slack post
+A colleague of mine and I set out to explore what the mysterious but divine world of Cloud Native ☁️ and Kubernetes has evolved to in the last two years of pre-recorded online talks.
+Due to our untrained trip-planning we both met in Barcelona and together made the last leg to Valencia on Tuesday 17th where we arrived in the evening and after literally 5 minutes we ran into our colleagues from a supplier of us.</description>
+    </item>
+    
     <item>
       <title>Hide your Storage behind Traefik</title>
       <link>https://tillepille.github.io/posts/hide-storage-behind-traefik/</link>

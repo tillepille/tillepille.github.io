@@ -1,6 +1,5 @@
 baseurl = "https://tillepille.github.io"
 DefaultContentLanguage = "en"
-#DefaultContentLanguage = "en"
 title = "tillepille"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"

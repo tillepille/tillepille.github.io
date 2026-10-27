@@ -24,7 +24,7 @@ pygmentsCodefencesGuessSyntax = true
   delayDisqus = true
   showRelatedPosts = true
 
-[Author]
+[Params.author]
   name = "Tim Schrumpf"
   website = "tillepille.io"
   email = "tim@tillepille.io"
